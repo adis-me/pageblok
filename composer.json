@@ -1,0 +1,28 @@
+{
+    "name": "adis-me/pageblok",
+    "description": "",
+    "authors": [
+        {
+            "name": "Adis Corovic",
+            "email": "adis@live.nl"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*",
+        "erusev/parsedown-extra": "dev-master",
+        "edvinaskrucas/notification": "3.*",
+        "nesbot/Carbon": "*",
+        "intervention/image": "2.*",
+        "toin0u/geocoder-laravel": "@stable"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-4": {
+            "Pageblok\\": "src/Pageblok/"
+        }
+    },
+    "minimum-stability": "stable"
+}

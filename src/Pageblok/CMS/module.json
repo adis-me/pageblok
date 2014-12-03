@@ -1,0 +1,6 @@
+{
+    "name": "Pageblok CMS module",
+    "enabled": true,
+    "order": 999,
+    "provider": "Pageblok\\CMS\\CMSServiceProvider"
+}

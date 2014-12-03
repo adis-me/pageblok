@@ -1,0 +1,83 @@
+/** import variables */
+@import "variables.less";
+
+/** import form styles */
+@import "forms.less";
+
+/** import editor styles */
+@import "editor.less";
+
+body {
+  background-color: #fff;
+}
+
+.navbar-brand {
+  background: transparent url('/packages/adis-me/pageblok/img/pageblok-logo-40.png') no-repeat 10px;
+  padding-left: 60px;
+}
+
+.ts-menu-bar {
+  padding: 0 0 20px 0;
+}
+
+.border-right {
+  border-right: 2px solid @border-color;
+}
+
+.border-left {
+  border-left: 2px solid @border-color;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none !important;
+}
+
+
+
+img.logo {
+  margin-top: 50px;
+}
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/** Remove borders and padding */
+.flash-alert {
+  margin-bottom: 0px;
+  border-radius: 0px;
+}
+
+/** add negative margin to push the alerts right below the navigation */
+.notifications-panel {
+  margin-top: -21px;
+}
+
+/** OVERRIDE: Remove border radius from navbar */
+.navbar {
+  border-radius: 0px;
+}
+
+.border-bottom {
+  border-bottom: 2px solid @border-color;
+}
+
+.padded-top {
+  padding-top: 20px;
+}
+
+th.status-column, td.status-column {
+  width: 100px;
+}
+
+i.fa-color {
+  color: @fa-color;
+}
+
+.image-preview {
+  margin-bottom: 10px;
+}

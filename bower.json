@@ -1,0 +1,32 @@
+{
+  "name": "Pageblok CMS",
+  "version": "0.0.1",
+  "authors": [
+    "Adis Corovic adis@live.nl"
+  ],
+  "description": "Pageblok CMS",
+  "main": "?",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "pageblok",
+    "cms"
+  ],
+  "license": "MIT",
+  "homepage": "www.pageblok.nl",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.2.0",
+    "jquery": "~2.x",
+    "summernote": "~0.5.3",
+    "dropzone": "~3.10.2"
+  }
+}
