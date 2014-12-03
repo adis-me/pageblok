@@ -1,4 +1,4 @@
-{
+    {
     "name": "adis-me/pageblok",
     "description": "",
     "authors": [
@@ -10,7 +10,7 @@
     "require": {
         "php": ">=5.4.0",
         "illuminate/support": "4.2.*",
-        "erusev/parsedown-extra": "dev-master",
+        "erusev/parsedown-extra": "0.2.*",
         "edvinaskrucas/notification": "3.*",
         "nesbot/Carbon": "*",
         "intervention/image": "2.*",
